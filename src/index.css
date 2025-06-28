@@ -1,1 +1,173 @@
 @import "tailwindcss";
+
+@theme {
+  --color-preto: #000;
+  --color-pretoMedio: #171717;
+  --color-branco: #ffff;
+  --color-brancoMedio: #f7f7f7;
+  --color-cinzaClaro: #E1E1E1;
+  --color-cinzaAzul: #273142;
+  --color-azul: #227298;
+  --font-source-sans: "Source Sans 3", "sans-serif";
+  --font-share-tech: "Share Tech", "sans-serif";
+  
+  --leading-1: 1.375rem;
+  /* line-altura */
+}
+
+.span {
+  color: var(--color-azul);
+}
+
+.nav {
+  max-width: fit-content;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  align-items: end;
+}
+
+.logo {
+  height: 3.8rem;
+  width: 3.8rem;
+}
+
+.ul {
+  display: flex;
+  justify-content: center;
+  gap: 7.5rem;
+  font-family: var(--font-share-tech);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color-pretoMedio);
+  margin-right: 4.1rem;
+}
+
+.ul li:hover {
+  transition: 0.2s;
+  cursor: pointer;
+  color: var(--color-azul);
+}
+
+.divTemaUsuario  {
+  display: flex;
+  gap: 1.3rem;
+}
+
+.temaUsuario {
+  height: 37px;
+  width: 37px;
+}
+
+.homeIntroFoto {
+  width: 336px;
+  height: 500px;
+  border-radius: 7.8rem;
+  box-shadow: 5px 8px 12px 0 #227298;
+}
+
+.divHomeIntro {
+  position: relative;
+  max-width: 1035px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7.47rem;
+}
+
+.homeIntroH1 {
+  font-family: var(--font-share-tech);
+  color: var(--color-pretoMedio);
+  font-size: 39px;
+  margin-top: 3.75rem;
+  max-width: 550px;
+  line-height: normal;
+}
+
+.homeIntroP {
+  font-size: 18px;
+  font-family: var(--font-source-sans);
+  max-width: 470px;
+  margin-block: 4rem;
+}
+
+
+.HomeIntroButton {
+  font-family: var(--font-share-tech);
+  font-size: 18px;
+  color: var(--color-azul);
+  border: 1px solid var(--color-azul);
+  height: 2.6rem;
+  width: 11rem;
+  border-radius: 22px;
+  transition: 0.5s;
+}
+
+.HomeIntroButton:hover {
+  background-color: var(--color-azul);
+  color: var(--color-branco);
+}
+
+.divNossoDiferencial {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.divDiferenciais {
+  background-color: var(--color-azul);
+  color: var(--color-branco);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  padding-block: 1.3rem;
+  padding-inline: 1.3rem;
+  border-radius: 2.6rem;
+}
+
+.divDiferenciais span {
+  margin-bottom: 0.55rem;
+  margin-top: 0.4rem;
+  font-family: var(--font-share-tech);
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.divDiferenciais p {
+  font-family: var(--font-source-sans);
+  font-size: 14.5px;
+  font-weight: 300;
+  max-width: 220px;
+  text-align: center;
+}
+
+.bordaIcon {
+  height: 3.45rem;
+  width: 3.55rem;
+  background-color: var(--color-cinzaClaro);
+  border-radius: 999px;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconeDiferencial {
+  z-index: 1;
+  height: 2.2rem;
+  width: 2.3rem;
+}
+
+@layer utilities {
+.bg-radial-dark {
+  background: radial-gradient(ellipse at center, #273142, #000000);
+}
+
+.bg-linear-vertical {
+  background: linear-gradient(to bottom, #227298, #273142);
+} 
+
+}

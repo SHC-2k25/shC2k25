@@ -1,0 +1,8 @@
+.bg-radial-luz {
+  background: radial-gradient(ellipse at center, var(--color-branco), var(--color-cinzaClaro));
+  background-repeat: repeat-y;
+  background-size: 100% 1024px;
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 35px;
+}
