@@ -3,7 +3,7 @@ import { Botao } from "./Botao.jsx"
 
 export function HomeIntro() {
   return (
-    <div className="divHomeIntro">
+    <section className="divHomeIntro">
       <div>
         <h1>E se fosse possível se <span className="span">comunicar</span> em um piscar de olhos?</h1>
 
@@ -17,6 +17,6 @@ export function HomeIntro() {
       </div>
 
       <img src={HomeIntroFoto} alt="Sthephen Hawking foto" />
-    </div>
+    </section>
   )
 }

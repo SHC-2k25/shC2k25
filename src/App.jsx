@@ -1,16 +1,14 @@
 import { ModoLuz } from "./Componentes/ModoLuz.jsx"
-import { ModoDark } from "./Componentes/ModoDark.jsx"
-import { NavLuz } from "./Componentes/NavLuz.jsx"
-import { HomeIntro } from "./Componentes/HomeIntro.jsx"
-import HomeDiferencial from "./HomeDiferencial.jsx"
+import { Footer } from "./Componentes/Footer.jsx"
+import { HomePage } from "./pages/HomePage.jsx"
+
 
 export function App() {
   return (
     <>
       <ModoLuz>
-        <NavLuz/>
-        <HomeIntro/>
-        <HomeDiferencial/>
+        <HomePage/>
+        <Footer FooterTema={"FooterLuz"}/>
       </ModoLuz>
     </>
   )
