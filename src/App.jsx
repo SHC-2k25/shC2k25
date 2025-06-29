@@ -11,7 +11,6 @@ export function App() {
         <NavLuz/>
         <HomeIntro/>
         <HomeDiferencial/>
-        <HomeIntro/>
       </ModoLuz>
     </>
   )

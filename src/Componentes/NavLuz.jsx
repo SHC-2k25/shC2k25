@@ -1,4 +1,4 @@
-import shclogo from "../../public/shlogos.png"
+import shclogo from "/shlogos.png"
 import tema from "../assets/dia-e-noite.png"
 import usuario from "../assets/usuario-de-perfil.png"
 
@@ -6,7 +6,7 @@ export function NavLuz() {
   return (
     <div className="nav">
         <img src={shclogo} alt="logo do site" className="logo"/>
-        <ul className="ul">
+        <ul>
             <li className="">Home</li>
             <li className="">Guia</li>
             <li className="">Materiais</li>
