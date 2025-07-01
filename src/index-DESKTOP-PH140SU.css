@@ -13,7 +13,7 @@ body {
   --color-cinzaAzul: #273142;
   --color-azul: #227298;
 
-  --color-linearLuz: linear-gradient(to bottom, #E1E1E1 0%, #f7f7f7 70%);
+  --color-linearLuz: linear-gradient(to bottom, #E1E1E1, #f7f7f7 );
   --font-source-sans: "Source Sans 3", "sans-serif";
   --font-share-tech: "Share Tech", "sans-serif";
   
@@ -43,20 +43,7 @@ body {
   cursor: pointer;
 }
 
-.BotaoCLluz {
-  margin-top: 0.6rem;
-  font-family: var(--font-source-sans);
-  background-color: var(--color-cinzaAzul);
-  color: var(--color-branco);
-  border-radius: 24px;
-  font-size: 18px;
-  padding-block: 0.4rem;
-}
-
-.BotaoCLluz:hover {
-  cursor: pointer;
-  opacity: 90%;
-}
+.BotaoCad
 
 .FooterLuz {
   margin-top: 7rem;
@@ -352,19 +339,18 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 70px;
+  border-radius: 80px;
 }
 
 .Cadastro h1 {
   font-size: 35px;
   font-family: var(--font-share-tech);
-  margin-bottom: 4.5rem;
 }
 
 .Cadastro div {
   display: flex;
   flex-direction: column;
-  gap: 1.15rem;
+  gap: 1rem;
 }
 
 .Cadastro input {
@@ -375,10 +361,6 @@ body {
   font-family: var(--font-source-sans);
   border: 2px solid var(--color-azul);
   border-radius: 17px;
-}
-
-.Cadastro input:focus {
-  outline: none;
 }
 
 .Cadastro input::placeholder {
