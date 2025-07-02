@@ -58,6 +58,41 @@ body {
   opacity: 90%;
 }
 
+.BotaoCLDark {
+  margin-top: 0.6rem;
+  font-family: var(--font-source-sans);
+  background-color: var(--color-azul);
+  color: var(--color-branco);
+  border-radius: 24px;
+  font-size: 18px;
+  padding-block: 0.4rem;
+}
+
+.BotaoCLDark:hover {
+  cursor: pointer;
+  opacity: 90%;
+}
+
+.Input {
+  font-size: 15.5px;
+  color: var(--color-azul);
+  width: 395px;
+  padding: 0.45rem 0.8rem;
+  font-family: var(--font-source-sans);
+  border: 2px solid var(--color-azul);
+  border-radius: 17px;
+}
+
+.Input:focus {
+  outline: none;
+}
+
+.Input::placeholder {
+  font-family: var(--font-source-sans);
+  font-size: 15.5px;
+  color: var(--color-azul);
+}
+
 .FooterLuz {
   margin-top: 7rem;
   width: 100%;
@@ -367,28 +402,107 @@ body {
   gap: 1.15rem;
 }
 
-.Cadastro input {
-  font-size: 15.5px;
-  color: var(--color-azul);
-  width: 395px;
-  padding: 0.45rem 0.8rem;
-  font-family: var(--font-source-sans);
-  border: 2px solid var(--color-azul);
-  border-radius: 17px;
-}
-
-.Cadastro input:focus {
-  outline: none;
-}
-
-.Cadastro input::placeholder {
-  font-family: var(--font-source-sans);
-  font-size: 15.5px;
-  color: var(--color-azul);
-}
 
 /* LOGIN */
 
+.Login {
+  margin-top: 7.47rem;
+  margin-inline: auto;
+  width: 590px;
+  padding-block: 2.5rem;
+  border: 2px solid var(--color-brancoMedio);
+  background: var(--color-linearLuz);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70px;
+}
+
+.Login h1 {
+  font-size: 35px;
+  font-family: var(--font-share-tech);
+  margin-bottom: 4.5rem;
+}
+
+.Login div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
+}
+
+.DashBoard {
+  border: 2px solid var(--color-brancoMedio);
+  background: var(--color-linearLuz);
+  margin-top: 7.47rem;
+  margin-inline: auto;
+  max-width: 1090px;
+  padding-top: 2.5rem;
+  padding-bottom: 7rem;
+  border-radius: 100px 0px 100px 0px;
+}
+
+.DSlinha {
+  border-bottom: 1.5px solid var(--color-cinzaAzul);
+  max-width: fit-content;
+  justify-self: center;
+  margin-bottom: 5rem;
+}
+
+.DashBoard h1 {
+  font-size: 35px;
+  font-family: var(--font-share-tech);
+  width: 300px;
+  margin-inline: auto;
+  margin-bottom: 0.4rem;
+  text-align: center;
+}
+
+.DS2 {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: auto;
+  max-width: 800px;
+}
+
+.DashBoard .DSinputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
+}
+
+.DS3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.DS3 button {
+  font-family: var(--font-source-sans);
+  font-size: 16px;
+  color: var(--color-azul);
+  cursor: pointer;
+}
+
+.DSfoto {
+  border: 3.5px solid var(--color-azul);
+  border-radius: 999px;
+  height: 188px;
+  width: 188px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DSfoto div {
+  background-image: url('https://makerworld.bblmw.com/makerworld/model/USba80b41eea3f28/design/2023-12-19_dce3f723a8ba2.jpg?x-oss-process=image/resize,w_1000/format,webp');
+  background-size: cover;
+  background-position: center;
+  border-radius: 999px;
+  height: 169px;
+  width: 169px;
+}
 
 
 

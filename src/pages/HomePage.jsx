@@ -1,5 +1,5 @@
-import { Home } from "../Componentes/Home";
-import { NavLuz } from "../Componentes/NavLuz";
+import { Home } from "../Componentes/Home.jsx";
+import { NavLuz } from "../Componentes/NavLuz.jsx";
 
 
 export function HomePage() {

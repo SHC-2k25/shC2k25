@@ -1,5 +1,5 @@
-import { GuiaPassos } from "../Componentes/GuiaPassos"
-import { NavLuz } from "../Componentes/NavLuz"
+import { GuiaPassos } from "../Componentes/GuiaPassos.jsx"
+import { NavLuz } from "../Componentes/NavLuz.jsx"
 
 export function GuiaPage() {
   return (
