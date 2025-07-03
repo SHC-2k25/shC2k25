@@ -353,6 +353,41 @@ body {
 
 /* MATERIAIS */
 
+.materiais {
+  margin-top: 7.47rem;
+}
+
+.materiais2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.materiais2 h1 {
+  font-family: var(--font-share-tech);
+  color: var(--color-pretoMedio);
+  font-size: 38px;
+  text-align: center;
+  max-width: 600px;
+}
+
+.materiais2 p {
+  max-width: 880px;
+  text-align: center;
+  font-family: var(--font-source-sans);
+  font-size: 18px;
+}
+
+.materiais2 button {
+  margin-left: auto;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.materiais3 {
+  margin-top: 5rem;
+}
 
 
 /* CADASTRO MATERIAIS */
@@ -361,11 +396,118 @@ body {
 
 /* DASHBOARD */
 
+.DashBoard {
+  border: 2px solid var(--color-brancoMedio);
+  background: var(--color-linearLuz);
+  margin-top: 7.47rem;
+  margin-inline: auto;
+  max-width: 1090px;
+  padding-top: 2.5rem;
+  padding-bottom: 7rem;
+  border-radius: 100px 0px 100px 0px;
+}
 
+.DSlinha {
+  border-bottom: 1.5px solid var(--color-cinzaAzul);
+  max-width: fit-content;
+  justify-self: center;
+  margin-bottom: 5rem;
+}
+
+.DashBoard h1 {
+  font-size: 35px;
+  font-family: var(--font-share-tech);
+  width: 300px;
+  margin-inline: auto;
+  margin-bottom: 0.4rem;
+  text-align: center;
+}
+
+.DS2 {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: auto;
+  max-width: 800px;
+}
+
+.DashBoard .DSinputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
+}
+
+.DS3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.DS3 button {
+  font-family: var(--font-source-sans);
+  font-size: 16px;
+  color: var(--color-azul);
+  cursor: pointer;
+}
+
+.DSfoto {
+  border: 3.5px solid var(--color-azul);
+  border-radius: 999px;
+  height: 188px;
+  width: 188px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DSfoto div {
+  background-image: url('https://makerworld.bblmw.com/makerworld/model/USba80b41eea3f28/design/2023-12-19_dce3f723a8ba2.jpg?x-oss-process=image/resize,w_1000/format,webp');
+  background-size: cover;
+  background-position: center;
+  border-radius: 999px;
+  height: 169px;
+  width: 169px;
+}
 
 /* JOGO */
 
+.jogo h1 {
+  margin-inline: auto;
+  margin-top: 7.47rem;
+  margin-bottom: 7.47rem;
+  width: 320px;
+  text-align: center;
+  font-size: 35px;
+  font-family: var(--font-share-tech);
+}
 
+.jogo2 {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  height: 470px;
+}
+
+.jogo3 {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.jogo4 {
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.jogo4 p {
+  font-family: var(--font-source-sans);
+  text-align: center;
+  font-size: 18px;
+}
 
 /* REFERÊNCIAS */
 
@@ -501,7 +643,36 @@ body {
   font-size: 18px;
 }
 
+.SNemail {
+  justify-self: end;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  margin-top: 5.4rem;
+}
 
+.SNemail input {
+  width: 430px;
+  outline: none;
+  border-bottom: 2px solid var(--color-preto);
+  color: var(--color-cinzaAzul);
+  font-size: 16px;
+  font-family: var(--font-source-sans);
+}
+
+.SNemail h4 {
+  max-width: 200px;
+  margin-inline: auto;
+  font-family: var(--font-share-tech);
+  color: var(--color-cinzaAzul);
+  font-size: 24px;
+}
+
+.SNemail input::placeholder {
+  color: var(--color-cinzaAzul);
+  font-size: 15px;
+  font-family: var(--font-share-tech);
+}
 
 /* CADASTRO */
 
@@ -531,7 +702,6 @@ body {
   gap: 1.15rem;
 }
 
-
 /* LOGIN */
 
 .Login {
@@ -560,98 +730,7 @@ body {
   gap: 1.15rem;
 }
 
-.DashBoard {
-  border: 2px solid var(--color-brancoMedio);
-  background: var(--color-linearLuz);
-  margin-top: 7.47rem;
-  margin-inline: auto;
-  max-width: 1090px;
-  padding-top: 2.5rem;
-  padding-bottom: 7rem;
-  border-radius: 100px 0px 100px 0px;
-}
-
-.DSlinha {
-  border-bottom: 1.5px solid var(--color-cinzaAzul);
-  max-width: fit-content;
-  justify-self: center;
-  margin-bottom: 5rem;
-}
-
-.DashBoard h1 {
-  font-size: 35px;
-  font-family: var(--font-share-tech);
-  width: 300px;
-  margin-inline: auto;
-  margin-bottom: 0.4rem;
-  text-align: center;
-}
-
-.DS2 {
-  display: flex;
-  justify-content: space-between;
-  margin-inline: auto;
-  max-width: 800px;
-}
-
-.DashBoard .DSinputs {
-  display: flex;
-  flex-direction: column;
-  gap: 1.15rem;
-}
-
-.DS3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.6rem;
-}
-
-.DS3 button {
-  font-family: var(--font-source-sans);
-  font-size: 16px;
-  color: var(--color-azul);
-  cursor: pointer;
-}
-
-.DSfoto {
-  border: 3.5px solid var(--color-azul);
-  border-radius: 999px;
-  height: 188px;
-  width: 188px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.DSfoto div {
-  background-image: url('https://makerworld.bblmw.com/makerworld/model/USba80b41eea3f28/design/2023-12-19_dce3f723a8ba2.jpg?x-oss-process=image/resize,w_1000/format,webp');
-  background-size: cover;
-  background-position: center;
-  border-radius: 999px;
-  height: 169px;
-  width: 169px;
-}
-
-.SNemail {
-  border: 1px solid red;
-  display: flex;
-  flex-direction: column;
-  max-width: 500px;
-}
-
-.SNemail h4 {
-  font-size: 22px;
-  color: var(--color-cinzaAzul);
-  font-family: var(--font-share-tech);
-}
-
-
-
-
-
-
-@layer utilities {
+/* @layer utilities {
 .bg-radial-dark {
   background: radial-gradient(ellipse at center, #273142, #000000);
 }
@@ -660,4 +739,4 @@ body {
   background: linear-gradient(to bottom, #227298, #273142);
 }
 
-}
+} */

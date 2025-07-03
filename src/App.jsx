@@ -9,6 +9,8 @@ import { LoginPage } from "./pages/LoginPage.jsx"
 import { DashBoardPage } from "./pages/DashBoardPage.jsx"
 import { ReferenciasPage } from "./pages/ReferenciasPage.jsx"
 import { SobreNosPage } from "./pages/SobreNosPage.jsx"
+import { JogoPage } from "./pages/JogoPage.jsx"
+import { MateriaisPage } from "./pages/MateriaisPage.jsx"
 
 
 
@@ -16,7 +18,7 @@ export function App() {
   return (
     <>
       <ModoLuz>
-        <SobreNosPage/>
+        <MateriaisPage/>
         <Footer FooterTema={"FooterLuz"}/>
       </ModoLuz>
     </>

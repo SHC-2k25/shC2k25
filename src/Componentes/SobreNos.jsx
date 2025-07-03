@@ -40,7 +40,7 @@ export function SobreNos() {
                         <h4>Entre em contato</h4>
                         <input type="text" placeholder="Nome"/>
                         <input type="email" placeholder="Email"/>
-                        <input type="password" placeholder="Mensagem"/>
+                        <input type="text" placeholder="Mensagem"/>
                     </div>
 
                 </div>
