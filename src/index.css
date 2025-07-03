@@ -340,6 +340,7 @@ body {
   text-align: center;
   max-width: 800px;
   margin-top: 1rem;
+  font-size: 18px;
 }
 
 .GPa {
@@ -368,9 +369,137 @@ body {
 
 /* REFERÊNCIAS */
 
+.Referencias {
+  margin-top: 7.47rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.5rem;
+}
 
+.Referencias h1 {
+  font-family: var(--font-share-tech);
+  color: var(--color-pretoMedio);
+  font-size: 38px;
+}
+
+.Referencias p {
+  font-family: var(--font-source-sans);
+  text-align: center;
+  max-width: 1000px;
+  font-size: 18px;
+}
+
+.R1 {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3.5rem;
+  margin-top: 2rem;
+}
+
+.R1 h4 {
+  color: var(--color-preto);
+  font-size: 25px;
+  font-family: var(--font-share-tech);
+}
+
+.R1 div {
+  display: flex;
+  width: 600px;
+  justify-content: space-around;
+}
+
+.R1 a {
+  font-weight: 600;
+  font-style: italic;
+}
 
 /* SOBRE NÓS */
+
+.SobreNos h1 {
+  font-family: var(--font-share-tech);
+  color: var(--color-pretoMedio);
+  font-size: 38px;
+  justify-self: center;
+}
+
+.SobreNos {
+  margin-top: 7.47rem;
+}
+
+.SN2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.SN1 {
+  display: flex;
+  align-items: start;
+  margin-inline: auto;
+  max-width: 1120px;
+  margin-top: 5rem;
+  justify-content: space-between;
+}
+
+.SNdev {
+  border-radius: 999px;
+  height: 280px;
+  width: 280px;
+}
+
+.SN2primeiro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.SN2segundo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.SN2segundo a {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.SN2segundo a p {
+  font-family: var(--font-share-tech);
+  color: var(--color-cinzaAzul);
+  font-size: 16px;
+}
+
+.unasp {
+  height: 190px;
+  width: 190px;
+}
+
+.insta {
+  height: 30px;
+  width: 30px;
+}
+
+.SN3 {
+  width: 740px;
+}
+
+.SN3primeiro {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.SN3primeiro p {
+  font-family: var(--font-source-sans);
+  font-size: 18px;
+}
 
 
 
@@ -503,6 +632,21 @@ body {
   height: 169px;
   width: 169px;
 }
+
+.SNemail {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.SNemail h4 {
+  font-size: 22px;
+  color: var(--color-cinzaAzul);
+  font-family: var(--font-share-tech);
+}
+
+
 
 
 
