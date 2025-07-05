@@ -12,6 +12,13 @@ export function Materiais() {
 
       <div className="materiais3">
         <Material/>
+        <Material/>
+        <Material/>
+        <Material/>
+        <Material/>
+        <Material/>
+        <Material/>
+        <Material/>
       </div>
     </section>
   )

@@ -11,6 +11,7 @@ import { ReferenciasPage } from "./pages/ReferenciasPage.jsx"
 import { SobreNosPage } from "./pages/SobreNosPage.jsx"
 import { JogoPage } from "./pages/JogoPage.jsx"
 import { MateriaisPage } from "./pages/MateriaisPage.jsx"
+import { CadMateriaisPage } from "./pages/CadMateriaisPage.jsx"
 
 
 
@@ -18,7 +19,7 @@ export function App() {
   return (
     <>
       <ModoLuz>
-        <MateriaisPage/>
+        <CadMateriaisPage/>
         <Footer FooterTema={"FooterLuz"}/>
       </ModoLuz>
     </>

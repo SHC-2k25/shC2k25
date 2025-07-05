@@ -14,6 +14,7 @@ body {
   --color-azul: #227298;
 
   --color-linearLuz: linear-gradient(to bottom, #E1E1E1 0%, #f7f7f7 70%);
+  --color-linearAzul: linear-gradient(to bottom, #227298 0%, #273142 92%);
   --font-source-sans: "Source Sans 3", "sans-serif";
   --font-share-tech: "Share Tech", "sans-serif";
   
@@ -91,6 +92,63 @@ body {
   font-family: var(--font-source-sans);
   font-size: 15.5px;
   color: var(--color-azul);
+}
+
+.material {
+  background: var(--color-linearAzul);
+  border-radius: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: fit-content;
+  height: 140px;
+  padding-inline: 1.45rem;
+}
+
+.Minformacao {
+  height: 140px;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.Mfoto {
+  height: 94px;
+  width: 94px;
+  border-radius: 999px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.Mtt {
+  width: 210px;
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Mtt h6 {
+  font-family: var(--font-share-tech);
+  font-size: 17px;
+  color: var(--color-branco);
+  margin-bottom: 1.25rem;
+}
+
+.Mtt p {
+  font-family: var(--font-source-sans);
+  font-size: 13.5px;
+  color: var(--color-branco);
+  width: 210px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.Mpreco {
+  font-family: var(--font-share-tech);
+  font-size: 18px;
+  color: var(--color-branco);
 }
 
 .FooterLuz {
@@ -387,10 +445,51 @@ body {
 
 .materiais3 {
   margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
 }
 
 
 /* CADASTRO MATERIAIS */
+
+
+.CM1 {
+  margin-top: 7.47rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
+  max-width: fit-content;
+  margin-left: 12rem;
+}
+
+.CM1 h1 {
+  font-family: var(--font-share-tech);
+  color: var(--color-pretoMedio);
+  font-size: 38px;
+  text-align: center;
+  margin-left: 12.3rem;
+}
+
+.voltar {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-share-tech);
+  font-size: 30px;
+  gap: 1rem;
+}
+
+.voltar img {
+  height: 30px;
+  width: 30px;
+}
+
+.CMadicionar {
+  margin-top: 7.47rem;
+  background: var(--color-azul);
+}
 
 
 
