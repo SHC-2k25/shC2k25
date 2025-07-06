@@ -24,7 +24,7 @@ export function CadMateriais() {
           
           <div className="CMprodutos">
 
-            <div>
+            <div className="CMtitulo">
               <h4>Nome</h4>
               <h4>Descrição</h4>
               <h4>Preço</h4>

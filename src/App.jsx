@@ -19,7 +19,7 @@ export function App() {
   return (
     <>
       <ModoLuz>
-        <CadMateriaisPage/>
+        <HomePage/>
         <Footer FooterTema={"FooterLuz"}/>
       </ModoLuz>
     </>
