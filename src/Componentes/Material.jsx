@@ -11,7 +11,7 @@ export function Material() {
             <p>Microcontrolador versátil para diversos projetos.</p>
           </div>
         </div>
-        <p className="Mpreco">R$56,89</p> 
+        <p className="Mpreco">R$156,89</p> 
         {/* RS PERMANECE, OS NUMEROS VEM DO BD */}
       </div>
     </>

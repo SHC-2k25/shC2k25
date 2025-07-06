@@ -114,16 +114,18 @@ body {
   gap: 0.65rem;
 }
 
+/* Voltar */
+
 .Mfoto {
-  height: 94px;
-  width: 94px;
+  height: 93.5px;
+  width: 93.5px;
   border-radius: 999px;
   border: 1px solid rgb(255, 255, 255);
 }
 
 .Mtt {
   width: 210px;
-  height: 125px;
+  height: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -133,7 +135,7 @@ body {
   font-family: var(--font-share-tech);
   font-size: 17px;
   color: var(--color-branco);
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 .Mtt p {
@@ -150,6 +152,8 @@ body {
   font-size: 18px;
   color: var(--color-branco);
 }
+
+/* produtos */
 
 .FooterLuz {
   margin-top: 7rem;
@@ -185,6 +189,11 @@ body {
   height: 3.8rem;
   width: 3.8rem;
   cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.15);
 }
 
 .nav ul {
@@ -198,7 +207,12 @@ body {
   margin-right: 4.1rem;
 }
 
+.nav ul li {
+  transition: transform 0.8s ease-in-out;
+}
+
 .nav ul li:hover {
+  transform: scale(1.15);
   transition: 0.2s;
   cursor: pointer;
   color: var(--color-azul);
@@ -452,15 +466,12 @@ body {
   flex-wrap: wrap;
 }
 
-
 /* CADASTRO MATERIAIS */
-
 
 .CM1 {
   margin-top: 7.47rem;
   display: flex;
   align-items: center;
-  border: 1px solid red;
   max-width: fit-content;
   margin-left: 12rem;
 }
@@ -470,7 +481,7 @@ body {
   color: var(--color-pretoMedio);
   font-size: 38px;
   text-align: center;
-  margin-left: 12.3rem;
+  margin-left: 12.25rem;
 }
 
 .voltar {
@@ -479,6 +490,13 @@ body {
   font-family: var(--font-share-tech);
   font-size: 30px;
   gap: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.voltar:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  opacity: 60%;
 }
 
 .voltar img {
@@ -486,12 +504,79 @@ body {
   width: 30px;
 }
 
-.CMadicionar {
+.Adicionar {
+  max-width: 900px;
+  height: 100px;
+  margin-inline: auto;
   margin-top: 7.47rem;
   background: var(--color-azul);
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding-inline: 2rem;
+  border-radius: 30px 30px 0 0;
+  border: 2px solid var(--color-branco);
 }
 
+.Adicionar img, .Produtos img {
+  width: 40px;
+  height: 40px;
+}
 
+.Adicionar input {
+  outline: none;
+  border-bottom: 1.5px solid var(--color-cinzaClaro);
+  font-family: var(--font-source-sans);
+  color: var(--color-cinzaClaro);
+  padding-left: 0.5rem;
+  max-width: 135px;
+  font-size: 16.5px;
+}
+
+.Adicionar input::placeholder {
+  font-size: 15.5px;
+  color: var(--color-cinzaClaro);
+  font-family: var(--font-source-sans);
+}
+
+.Adicionar button {
+  border: 1px solid var(--color-branco);
+  font-family: var(--font-share-tech);
+  font-size: 17px;
+  color: var(--color-branco);
+  padding: 0.1rem 1.4rem;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.Adicionar button:hover {
+  color: var(--color-azul);
+  background-color: var(--color-branco);
+}
+
+.Apreco {
+  margin-left: 4.7rem;
+}
+
+.CMprodutos {
+  max-width: 900px;
+  margin-inline: auto;
+  margin-top: 2rem;
+  background: var(--color-azul);
+  border-radius: 0 0 30px 30px;
+  border: 2px solid var(--color-branco);
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+.CMprodutos div {
+  display: flex;
+  gap: 10.5rem;
+  margin-left: 8.2rem;
+  font-family: var(--font-share-tech);
+  font-size: 19px;
+  color: var(--color-branco);
+}
 
 /* DASHBOARD */
 
@@ -828,6 +913,7 @@ body {
   flex-direction: column;
   gap: 1.15rem;
 }
+
 
 /* @layer utilities {
 .bg-radial-dark {
