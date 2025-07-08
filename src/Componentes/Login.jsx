@@ -9,7 +9,7 @@ export function Login() {
             <Input tipo={"text"} placeholder={"Nome"}/>
             <Input tipo={"email"} placeholder={"Email"}/>
             <Input tipo={"password"} placeholder={"Senha"}/>
-            <BotaoCadLog texto={"Logar"} tema={"BotaoCLluz"}/>
+            <BotaoCadLog texto={"Logar"}/>
         </div>
     </section>
   )

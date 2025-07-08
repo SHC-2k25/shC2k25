@@ -1,11 +1,11 @@
 import { Cadastro } from "../Componentes/Cadastro.jsx"
-import { NavLuz } from "../Componentes/NavLuz.jsx"
+import { NavLuz } from "../Componentes/Nav.jsx"
 
-export function CadastroPage() {
+export function CadastroPage({ dark, setDark }) {
   return (
     <>
-        <NavLuz/>
-        <Cadastro/>
+      <NavLuz dark={dark} setDark={setDark} />
+      <Cadastro />
     </>
   )
 }

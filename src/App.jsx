@@ -13,15 +13,35 @@ import { JogoPage } from "./pages/JogoPage.jsx"
 import { MateriaisPage } from "./pages/MateriaisPage.jsx"
 import { CadMateriaisPage } from "./pages/CadMateriaisPage.jsx"
 
+import { useState, useEffect } from "react"
+
 
 
 export function App() {
+
+  const [dark, setDark] = useState(false)
+
+  useEffect(() => {
+    if (dark) {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
+  }, [dark]);
+
   return (
     <>
-      <ModoLuz>
-        <HomePage/>
-        <Footer FooterTema={"FooterLuz"}/>
-      </ModoLuz>
+      { dark ? (
+        <ModoDark>
+          <SobreNosPage dark={dark} setDark={setDark}/>
+          <Footer FooterTema={"FooterDark"}/>
+        </ModoDark>
+      ) : (
+        <ModoLuz>
+          <SobreNosPage dark={dark} setDark={setDark}/>
+          <Footer FooterTema={"FooterLuz"}/>
+        </ModoLuz>
+      )}
     </>
   )
 }

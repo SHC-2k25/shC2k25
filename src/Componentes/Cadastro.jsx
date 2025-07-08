@@ -11,7 +11,7 @@ export function Cadastro() {
           <Input tipo={"email"} placeholder={"Email"}/>
           <Input tipo={"password"} placeholder={"Senha"}/>
           <Input tipo={"password"} placeholder={"Confirme a senha"}/>
-          <BotaoCadLog texto={"Cadastrar"} tema={"BotaoCLluz"}/>
+          <BotaoCadLog texto={"Cadastrar"}/>
         </div>
 
     </section>

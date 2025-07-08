@@ -1,11 +1,11 @@
 import { DashBoard } from "../Componentes/DashBoard.jsx";
-import { NavLuz } from "../Componentes/NavLuz.jsx";
+import { NavLuz } from "../Componentes/Nav.jsx";
 
-export function DashBoardPage() {
+export function DashBoardPage({ dark, setDark }) {
   return (
     <>
-        <NavLuz/>
-        <DashBoard/>
+      <NavLuz dark={dark} setDark={setDark} />
+      <DashBoard />
     </>
   )
 }

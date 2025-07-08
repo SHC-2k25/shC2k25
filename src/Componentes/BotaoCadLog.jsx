@@ -1,7 +1,7 @@
-export function BotaoCadLog({texto, tema}) {
+export function BotaoCadLog({texto}) {
   return (
     <>
-        <button className={tema}>{texto}</button>
+        <button className="botao">{texto}</button>
     </>
   )
 }

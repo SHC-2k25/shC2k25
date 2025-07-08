@@ -1,5 +1,5 @@
 .bg-radial-dark {
-  background: radial-gradient(ellipse at center, --color-cinzaAzul, --color-preto);
+  background: radial-gradient(ellipse at center, var(--color-cinzaAzul), var(--color-preto));
   background-repeat: repeat-y;
   background-size: 100% 1024px;
   width: 100%;

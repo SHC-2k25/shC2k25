@@ -1,11 +1,11 @@
 import { Materiais } from "../Componentes/Materiais.jsx";
-import { NavLuz } from "../Componentes/NavLuz.jsx";
+import { NavLuz } from "../Componentes/Nav.jsx";
 
-export function MateriaisPage() {
+export function MateriaisPage({ dark, setDark }) {
   return (
     <>
-      <NavLuz/>
-      <Materiais/>
+      <NavLuz dark={dark} setDark={setDark} />
+      <Materiais />
     </>
   )
 }

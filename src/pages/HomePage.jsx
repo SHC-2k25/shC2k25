@@ -1,12 +1,12 @@
 import { Home } from "../Componentes/Home.jsx";
-import { NavLuz } from "../Componentes/NavLuz.jsx";
+import { NavLuz } from "../Componentes/Nav.jsx";
 
 
-export function HomePage() {
+export function HomePage({ dark, setDark }) {
   return (
     <>
-        <NavLuz/>
-        <Home/>
+      <NavLuz dark={dark} setDark={setDark} />
+      <Home />
     </>
   )
 }

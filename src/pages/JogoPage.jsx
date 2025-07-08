@@ -1,12 +1,12 @@
 import { Jogo } from "../Componentes/Jogo";
-import { NavLuz } from "../Componentes/NavLuz";
+import { NavLuz } from "../Componentes/Nav";
 
 
-export function JogoPage() {
+export function JogoPage({ dark, setDark }) {
   return (
     <>
-        <NavLuz/>
-        <Jogo/>
+      <NavLuz dark={dark} setDark={setDark} />
+      <Jogo />
     </>
   )
 }

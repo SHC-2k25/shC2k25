@@ -1,12 +1,12 @@
-import { NavLuz } from "../Componentes/NavLuz.jsx";
+import { NavLuz } from "../Componentes/Nav.jsx";
 import { Referencias } from "../Componentes/Referencias.jsx";
 
 
-export function ReferenciasPage() {
+export function ReferenciasPage({ dark, setDark }) {
   return (
     <>
-        <NavLuz/>
-        <Referencias/>
+      <NavLuz dark={dark} setDark={setDark} />
+      <Referencias />
     </>
   )
 }

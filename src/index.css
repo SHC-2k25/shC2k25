@@ -2,21 +2,9 @@
 
 body {
   height: 100vh;
-
-  /* opacity: 0;
-  transform: translateY(20px);
-  animation: bodyFadeInUp 0.7s ease-out forwards;
-  animation-delay: 0.2s;
-  margin: 0;
-  padding: 0; */
 }
 
-/* @keyframes bodyFadeInUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-} */
+/* Login */
 
 @theme {
   --color-preto: #000;
@@ -27,7 +15,8 @@ body {
   --color-cinzaAzul: #273142;
   --color-azul: #227298;
 
-  --color-linearLuz: linear-gradient(to bottom, #E1E1E1 0%, #f7f7f7 70%);
+  --color-linearLuz: linear-gradient(to bottom, #E1E1E1 20%, #f7f7f7 70%);
+  --color-linearDark: linear-gradient(to bottom, #000 0%, #273142 90%);
   --color-linearAzul: linear-gradient(to bottom, #227298 0%, #273142 92%);
   --font-source-sans: "Source Sans 3", "sans-serif";
   --font-share-tech: "Share Tech", "sans-serif";
@@ -58,7 +47,7 @@ body {
   cursor: pointer;
 }
 
-.BotaoCLluz {
+.botao {
   margin-top: 0.6rem;
   font-family: var(--font-source-sans);
   background-color: var(--color-cinzaAzul);
@@ -68,12 +57,12 @@ body {
   padding-block: 0.4rem;
 }
 
-.BotaoCLluz:hover {
+.botao:hover {
   cursor: pointer;
   opacity: 90%;
 }
 
-.BotaoCLDark {
+/* .BotaoCLDark {
   margin-top: 0.6rem;
   font-family: var(--font-source-sans);
   background-color: var(--color-azul);
@@ -86,7 +75,7 @@ body {
 .BotaoCLDark:hover {
   cursor: pointer;
   opacity: 90%;
-}
+} */
 
 .Input {
   font-size: 15.5px;
@@ -968,14 +957,53 @@ body {
   gap: 1.15rem;
 }
 
-
-/* @layer utilities {
-.bg-radial-dark {
-  background: radial-gradient(ellipse at center, #273142, #000000);
+body.dark h1 {
+  color: var(--color-branco);
 }
 
-.bg-linear-vertical {
-  background: linear-gradient(to bottom, #227298, #273142);
+body.dark h4, body.dark h2 {
+  color: var(--color-brancoMedio);
 }
 
-} *
+body.dark p {
+  color: var(--color-branco);
+}
+
+body.dark .SNemail input {
+  color: var(--color-brancoMedio);
+
+}
+
+body.dark .SNemail input {
+  color: var(--color-brancoMedio);
+  border-bottom: 2px solid var(--color-brancoMedio);
+}
+
+body.dark .SNemail input::placeholder {
+  color: var(--color-branco);
+}
+
+body.dark .DashBoard {
+  background: var(--color-linearDark);
+}
+
+body.dark .DSlinha {
+  border-bottom: 1.5px solid var(--color-brancoMedio);
+}
+
+body.dark .Login {
+  background: var(--color-linearDark);
+}
+
+body.dark .Cadastro {
+  background: var(--color-linearDark);
+}
+
+body.dark .botao {
+  background-color: var(--color-azul);
+  color: var(--color-branco)
+} 
+
+body.dark .nav ul {
+  color: var(--color-branco);
+}
