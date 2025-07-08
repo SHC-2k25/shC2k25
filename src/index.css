@@ -4,7 +4,7 @@ body {
   height: 100vh;
 }
 
-/* Login */
+/* SN1 */
 
 @theme {
   --color-preto: #000;
@@ -809,7 +809,7 @@ body {
   display: flex;
   align-items: start;
   margin-inline: auto;
-  max-width: 1120px;
+  max-width: 1160px;
   margin-top: 5rem;
   justify-content: space-between;
 }

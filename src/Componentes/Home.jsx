@@ -7,8 +7,13 @@ import pratico from "../assets/tocar.png"
 
 import conjunto from "../assets/conjunto-foto.png"
 
+import { useNavigate } from 'react-router-dom';
+
 
 export function Home() {
+
+  const navigate = useNavigate();
+
   return (
     <>
         <section className="divHomeIntro">
@@ -19,7 +24,7 @@ export function Home() {
         
                 <div className="flex gap-10">
                     <Botao texto={"Baixe nosso App"}/>
-                    <Botao texto={"Sobre nós"}/>
+                    <Botao texto={"Sobre nós"} onClick={() => navigate('/sobre')}/>
                 </div>
                 
               </div>

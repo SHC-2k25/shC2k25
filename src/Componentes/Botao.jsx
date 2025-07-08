@@ -1,7 +1,7 @@
-export function Botao({texto}) {
+export function Botao({texto, onClick}) {
   return (
     <>
-      <button className="Botao">{texto}</button>
+      <button className="Botao" onClick={onClick}>{texto}</button>
     </>
   )
 }

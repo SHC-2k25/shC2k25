@@ -6,7 +6,7 @@ export function CadMateriaisPage({ dark, setDark }) {
   return (
     <>
       <NavLuz dark={dark} setDark={setDark} />
-      <CadMateriais />
+      <CadMateriais dark={dark} setDark={setDark} />
     </>
   )
 }

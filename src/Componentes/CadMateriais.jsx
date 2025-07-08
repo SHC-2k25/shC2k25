@@ -1,15 +1,22 @@
 import voltar from "../assets/de-volta.png"
+import voltarDark from "../assets/de-volta-dark.png"
 import foto from "../assets/foto-icon.png"
 import { Produtos } from "./Produtos.jsx"
 
-export function CadMateriais() {
+import { Link } from 'react-router-dom';
+
+export function CadMateriais({ dark, setDark }) {
   return (
     <section className="CadMateriais">
 
         <div className="CM1">
             <div className="voltar">
-                <img src={voltar} alt="icon voltar" />
-                <p>Voltar</p>
+                
+                <Link to="/materiais" className="voltar">
+                  <img src={dark ? voltarDark : voltar} alt="icon voltar" />
+                  <p>Voltar</p>
+                </Link>
+                
             </div>
             <h1>Cadastrar ou Atualizar <span className="span">Produto</span></h1>
         </div>
