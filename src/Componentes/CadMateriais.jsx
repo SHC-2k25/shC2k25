@@ -5,7 +5,7 @@ import { Produtos } from "./Produtos.jsx"
 
 import { Link } from 'react-router-dom';
 
-export function CadMateriais({ dark, setDark }) {
+export function CadMateriais({ dark }) {
   return (
     <section className="CadMateriais">
 

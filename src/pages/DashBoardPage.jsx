@@ -5,7 +5,7 @@ export function DashBoardPage({ dark, setDark }) {
   return (
     <>
       <NavLuz dark={dark} setDark={setDark} />
-      <DashBoard />
+      <DashBoard dark={dark} setDark={setDark}/>
     </>
   )
 }
