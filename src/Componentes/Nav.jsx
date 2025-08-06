@@ -20,7 +20,7 @@ export function NavLuz({ dark, setDark }) {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/login">Guia</Link>
+              <Link to="/guia">Guia</Link>
             </li>
             <li>
               <Link to="/materiais">Materiais</Link>
