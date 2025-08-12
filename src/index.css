@@ -198,6 +198,10 @@ body {
 
 /* ----------------------------------------------------------NAVBAR */
 
+.navMobile {
+  display: none;
+}
+
 .nav {
   max-width: fit-content;
   position: relative;
@@ -927,6 +931,11 @@ body {
   font-size: 18px;
 }
 
+.SN3 .Botao {
+  align-self: end;
+  width: 8rem;
+}
+
 .SNemail {
   justify-self: end;
   display: flex;
@@ -1087,5 +1096,41 @@ body.dark .nav ul {
   color: var(--color-branco);
 }
 
+<<<<<<< HEAD
   /* ---------------------------------------------------------- M O B I L E */
   
+=======
+@media (max-width: 375px) {
+  .nav {
+    display: none;
+  }
+
+  .navMobile {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    max-width: fit-content;
+    margin-inline: auto;
+  }
+
+  .menuMobile {
+    height: 54px;
+    width: 54px;
+  }
+  
+  .menuMobile:hover {
+    opacity: 80%;
+    cursor: pointer;
+  }
+
+  .logo {
+    height: 5.1rem;
+    width: 5.1rem;
+  }
+
+  .temaUsuario {
+    height: 3.3rem;
+    width: 3.3rem;
+  }
+}
+>>>>>>> a5e64bdac2a8a8224fba250059bfd3f9aef72d8c
