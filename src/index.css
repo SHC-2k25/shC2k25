@@ -1101,8 +1101,6 @@ body.dark .nav ul {
   color: var(--color-branco);
 }
 
-<<<<<<< HEAD
-=======
 @media (max-width: 375px) {
   .nav {
     display: none;
@@ -1224,4 +1222,3 @@ body.dark .nav ul {
     height: 332px;
   }
 }
->>>>>>> d1898ab7e160e255fff743881983f2ef8e5f34e1
