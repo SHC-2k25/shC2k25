@@ -22,7 +22,7 @@ export function Home() {
         
                 <p>Inspirado no software ACAT — utilizado pelo físico teórico e cosmólogo britânico Stephen Hawking — o SH Communicator é uma solução inovadora desenvolvida para devolver a autonomia da comunicação a pessoas com ELA.</p>
         
-                <div className="flex gap-10">
+                <div className="botoesHome">
                     <Botao texto={"Baixe nosso App"}/>
                     <Botao texto={"Sobre nós"} onClick={() => navigate('/sobre')}/>
                 </div>
