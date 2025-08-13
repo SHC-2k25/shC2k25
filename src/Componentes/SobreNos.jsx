@@ -31,7 +31,7 @@ export function SobreNos() {
 
                 <div className='SN3'>
                     <div className='SN3primeiro'>
-                        <p>Somos uma dupla de estudantes do Centro Universitário Adventista de São Paulo, cursando o terceiro ano do ensino médio. Nossa equipe é formada por: <span className='span'>Gustavo Garcia</span> e <span className='span'>João Pedro Salvador</span>. Unindo nossas habilidades como grandes colegas de classe, conseguimos desenvolver o SH Communicator: um recurso pensado para oferecer autonomia, praticidade e maior<span className='span'>qualidade de vida</span> a pessoas com dificuldades de fala e mobilidade.</p>
+                        <p>Somos uma dupla de estudantes do Centro Universitário Adventista de São Paulo, cursando o terceiro ano do ensino médio. Nossa equipe é formada por: <span className='span'>Gustavo Garcia</span> e <span className='span'>João Pedro Salvador</span>. Unindo nossas habilidades como grandes colegas de classe, conseguimos desenvolver o SH Communicator: um recurso pensado para oferecer autonomia, praticidade e maior <span className='span'>qualidade de vida</span> a pessoas com dificuldades de fala e mobilidade.</p>
 
                         <p>Nosso projeto nasceu do desejo de desenvolver uma solução na área da <span className='span'>comunicação assistiva</span>, unindo <span className='span'>tecnologia</span> e <span className='span'>propósito</span> social. Inspirados pelo <span className='span'>software ACAT</span> — que possibilitou ao renomado físico <span className='span'>Stephen Hawking</span> se comunicar mesmo com limitações motoras severas — buscamos criar uma ferramenta acessível e eficiente para dar voz a quem mais precisa.</p>
                     </div>
