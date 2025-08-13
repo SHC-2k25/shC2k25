@@ -130,7 +130,7 @@ body {
 
 .Mtt p {
   font-family: var(--font-source-sans);
-  font-size: 13.5px;
+  font-size: 14px;
   color: var(--color-branco);
   width: 210px;
   font-weight: 400;
@@ -197,6 +197,10 @@ body {
 }
 
 /* ----------------------------------------------------------NAVBAR */
+
+.navMobile {
+  display: none;
+}
 
 .nav {
   max-width: fit-content;
@@ -324,6 +328,11 @@ body {
   font-family: var(--font-source-sans);
   max-width: 470px;
   margin-block: 4rem;
+}
+
+.botoesHome {
+  display: flex;
+  gap: 3rem;
 }
 
 .divHomeDiferencial {
@@ -927,6 +936,11 @@ body {
   font-size: 18px;
 }
 
+.SN3 .Botao {
+  align-self: end;
+  width: 8rem;
+}
+
 .SNemail {
   justify-self: end;
   display: flex;
@@ -1087,3 +1101,127 @@ body.dark .nav ul {
   color: var(--color-branco);
 }
 
+<<<<<<< HEAD
+=======
+@media (max-width: 375px) {
+  .nav {
+    display: none;
+  }
+
+  .navMobile {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    max-width: fit-content;
+    margin-inline: auto;
+  }
+
+  .menuMobile {
+    height: 54px;
+    width: 54px;
+  }
+  
+  .menuMobile:hover {
+    opacity: 80%;
+    cursor: pointer;
+  }
+
+  .logo {
+    height: 5.1rem;
+    width: 5.1rem;
+  }
+
+  .temaUsuario {
+    height: 3.3rem;
+    width: 3.3rem;
+  }
+
+  .divHomeIntro {
+    display: block;
+  }
+
+  .botoesHome {
+    justify-self: center;
+  }
+
+  .botoesHome > .Botao:nth-child(2) {
+    display: none;
+  }
+
+  .divHomeIntro h1 {
+    margin-bottom: 40rem;
+    font-size: 35px;
+    max-width: 310px;
+    justify-self: center;
+  }
+
+  .divHomeIntro p {
+    font-size: 19px;
+    max-width: 326px;
+    justify-self: center;
+    text-align: justify;
+  }
+
+  .divHomeIntro img {
+    position: relative;
+    top: -52.5rem;
+    width: 307px;
+    height: 462px;
+    justify-self: center;
+  }
+
+  .divHomeDiferencial {
+    margin-top: -25rem;
+  }
+
+  .divHomeDiferencial h1 {
+    display: none;
+  }
+  
+  .dhdP1, .dhdP2 {
+    display: none;
+  }
+
+  .divHomeMissao h1 {
+    font-size: 35px;
+    max-width: 330px;
+  }
+
+  .divHomeMissao p {
+    font-size: 19px;
+    max-width: 326px;
+    margin: 0 auto;
+    text-align: justify;
+  }
+
+  .divHD2 {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
+
+  .divHD3 {
+    padding-inline: 3rem;
+    max-width: fit-content;
+  }
+
+  .divHD3 p {
+    font-size: 15px;
+  }
+
+  .divHM1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .divHM2 {
+    order: 2;
+    margin-top: 0.6rem;
+  }
+
+  .divHomeMissao img {
+    width: 456.4px;
+    height: 332px;
+  }
+}
+>>>>>>> d1898ab7e160e255fff743881983f2ef8e5f34e1

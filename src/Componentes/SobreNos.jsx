@@ -1,6 +1,7 @@
 import galaxia from '../assets/galaxiA.jpg'
 import unasp from '../assets/unasp-logo.png'
 import instagram from '../assets/instagram-logo.png'
+import { Botao } from "./Botao.jsx"
 
 export function SobreNos() {
     return (
@@ -19,9 +20,9 @@ export function SobreNos() {
                                 <img src={instagram} alt="instagram do gu_garcia26" className="insta" />
                                 <p>gu_garcia26</p>
                             </a>
-                            <a href="https://www.instagram.com/jesus_te_4ma/" target="_blank">
-                                <img src={instagram} alt="instagram do jesus_te_4ma" className="insta" />
-                                <p>jesus_te_4ma</p>
+                            <a href="https://www.instagram.com/joao_overhere/" target="_blank">
+                                <img src={instagram} alt="instagram do joao_overhere" className="insta" />
+                                <p>joao_overhere</p>
                             </a>
                         </div>
 
@@ -41,6 +42,8 @@ export function SobreNos() {
                         <input type="text" placeholder="Nome"/>
                         <input type="email" placeholder="Email"/>
                         <input type="text" placeholder="Mensagem"/>
+                        
+                        <Botao texto={"Enviar"}/>
                     </div>
 
                 </div>
