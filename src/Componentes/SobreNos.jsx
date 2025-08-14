@@ -37,15 +37,6 @@ export function SobreNos() {
                         <p>Nosso projeto nasceu do desejo de desenvolver uma solução na área da <span className='span'>comunicação assistiva</span>, unindo <span className='span'>tecnologia</span> e <span className='span'>propósito</span> social. Inspirados pelo <span className='span'>software ACAT</span> — que possibilitou ao renomado físico <span className='span'>Stephen Hawking</span> se comunicar mesmo com limitações motoras severas — buscamos criar uma ferramenta acessível e eficiente para dar voz a quem mais precisa.</p>
                     </div>
 
-                    <div className="SNemail">
-                        <h4>Entre em contato</h4>
-                        <input type="text" placeholder="Nome"/>
-                        <input type="email" placeholder="Email"/>
-                        <input type="text" placeholder="Mensagem"/>
-                        
-                        <Botao texto={"Enviar"}/>
-                    </div>
-
                 </div>
             </div>
 

@@ -1,10 +1,7 @@
 import { Link } from 'react-router-dom';
 import shclogo from "/shlogos.png";
 import tema from "../assets/dia-e-noite.png";
-import usuario from "../assets/usuario-de-perfil.png";
 import temaDark from "../assets/dia-e-noite-dark.png";
-import usuarioDark from "../assets/usuario-de-perfil-dark.png";
-
 import { useNavigate } from 'react-router-dom';  // Adicione esta linha
 
 export function NavLuz({ dark, setDark }) {
@@ -39,11 +36,6 @@ export function NavLuz({ dark, setDark }) {
               className="temaUsuario" 
               onClick={() => setDark(!dark)}
             />
-            <img 
-              src={dark ? usuarioDark : usuario} 
-              alt="icone de perfil" 
-              className="temaUsuario"
-            onClick={() => navigate('/dashboard')}/>
         </div>
     </div>
   )

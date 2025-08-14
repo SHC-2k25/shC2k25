@@ -110,7 +110,6 @@ body {
   height: 93.5px;
   width: 93.5px;
   border-radius: 999px;
-  border: 1px solid rgb(255, 255, 255);
 }
 
 .Mtt {
@@ -244,11 +243,6 @@ body {
   transition: 0.25s;
   cursor: pointer;
   color: var(--color-azul);
-}
-
-.divTemaUsuario  {
-  display: flex;
-  gap: 1.3rem;
 }
 
 .temaUsuario {
@@ -495,7 +489,7 @@ body {
   margin-block: 3rem;
 }
 
-/* MATERIAIS */
+/*----------------------------------------------------------MATERIAIS */
 
 .materiais {
   margin-top: 7.47rem;
@@ -536,223 +530,6 @@ body {
   justify-content: center;
   gap: 2.5rem;
   flex-wrap: wrap;
-}
-
-/* ----------------------------------------------------------CADASTRO MATERIAIS */
-
-.CM1 {
-  margin-top: 7.47rem;
-  display: flex;
-  align-items: center;
-  max-width: fit-content;
-  margin-left: 12rem;
-}
-
-.CM1 h1 {
-  font-family: var(--font-share-tech);
-  color: var(--color-pretoMedio);
-  font-size: 38px;
-  text-align: center;
-  margin-left: 12.25rem;
-}
-
-.voltar {
-  display: flex;
-  align-items: center;
-  font-family: var(--font-share-tech);
-  font-size: 30px;
-  gap: 1rem;
-  transition: transform 0.3s ease-in-out;
-}
-
-.voltar:hover {
-  cursor: pointer;
-  transform: scale(0.9);
-  opacity: 60%;
-}
-
-.voltar img {
-  height: 30px;
-  width: 30px;
-}
-
-.Adicionar {
-  max-width: 900px;
-  height: 100px;
-  margin-inline: auto;
-  margin-top: 7.47rem;
-  background: var(--color-azul);
-  display: flex;
-  align-items: center;
-  gap: 3.5rem;
-  padding-inline: 2rem;
-  border-radius: 30px 30px 0 0;
-  border: 2px solid var(--color-branco);
-}
-
-.Adicionar img, .foto {
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-}
-
-.Adicionar input {
-  outline: none;
-  border-bottom: 1.5px solid var(--color-cinzaClaro);
-  font-family: var(--font-source-sans);
-  color: var(--color-cinzaClaro);
-  padding-left: 0.5rem;
-  max-width: 135px;
-  font-size: 16.5px;
-}
-
-.Adicionar input::placeholder {
-  font-size: 15.5px;
-  color: var(--color-cinzaClaro);
-  font-family: var(--font-source-sans);
-}
-
-.Adicionar button {
-  border: 1px solid var(--color-branco);
-  font-family: var(--font-share-tech);
-  font-size: 17px;
-  color: var(--color-branco);
-  padding: 0.1rem 1.4rem;
-  border-radius: 24px;
-  transition: 0.25s;
-}
-
-.Adicionar button:hover {
-  color: var(--color-azul);
-  background-color: var(--color-branco);
-  cursor: pointer;
-}
-
-.Apreco {
-  margin-left: 3rem;
-}
-
-.CMprodutos {
-  max-width: 900px;
-  margin-inline: auto;
-  margin-top: 2rem;
-  background: var(--color-linearAzul);
-  border-radius: 0 0 30px 30px;
-  border: 2px solid var(--color-branco);
-  padding-top: 2rem;
-  padding-bottom: 5rem;
-}
-
-.CMprodutos .CMtitulo {
-  display: flex;
-  max-width: fit-content;
-  gap: 11rem;
-  margin-left: 8.2rem;
-  font-family: var(--font-share-tech);
-  font-size: 19px;
-  color: var(--color-branco);
-}
-
-/* ----------------------------------------------------------DASHBOARD */
-
-.DashBoard {
-  border: 3px solid var(--color-branco);
-  background: var(--color-linearLuz);
-  margin-top: 7.47rem;
-  margin-inline: auto;
-  max-width: 1090px;
-  padding-top: 2.5rem;
-  padding-bottom: 7rem;
-  border-radius: 100px 0px 100px 0px;
-}
-
-.DSlinha {
-  border-bottom: 1.5px solid var(--color-cinzaAzul);
-  max-width: fit-content;
-  justify-self: center;
-  margin-bottom: 5rem;
-}
-
-.DashBoard h1 {
-  font-size: 35px;
-  font-family: var(--font-share-tech);
-  width: 300px;
-  margin-inline: auto;
-  margin-bottom: 0.4rem;
-  text-align: center;
-}
-
-.DS2 {
-  display: flex;
-  justify-content: space-between;
-  margin-inline: auto;
-  max-width: 800px;
-}
-
-.DashBoard .DSinputs {
-  display: flex;
-  flex-direction: column;
-  gap: 1.15rem;
-}
-
-.DS3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.6rem;
-}
-
-.DS3 button {
-  font-family: var(--font-source-sans);
-  font-size: 16px;
-  color: var(--color-azul);
-  transition: 0.25s;
-}
-
-.DS4 {
-  display: flex;
-  flex-direction: column;
-  gap: 0.7rem;
-  font-family: var(--font-source-sans);
-  color: var(--color-pretoMedio);
-  font-size: 16.5px;
-}
-
-.DS4 img {
-  width: 23px;
-}
-
-.sairDiv {
-  display: flex;
-  justify-content: center;
-  gap: 0.3rem;
-  font-weight: 600;
-  transition: 0.25s;
-}
-
-.sairDiv:hover, .DS3 button:hover {
-  cursor: pointer;
-  transition: transform 0.2s ease-in-out;
-  transform: scale(1.15);
-}
-
-.DSfoto {
-  border: 3.5px solid var(--color-azul);
-  border-radius: 999px;
-  height: 188px;
-  width: 188px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.DSfoto div {
-  background-image: url('https://makerworld.bblmw.com/makerworld/model/USba80b41eea3f28/design/2023-12-19_dce3f723a8ba2.jpg?x-oss-process=image/resize,w_1000/format,webp');
-  background-size: cover;
-  background-position: center;
-  border-radius: 999px;
-  height: 169px;
-  width: 169px;
 }
 
 /* ----------------------------------------------------------JOGO */
@@ -873,7 +650,7 @@ body {
 
 .SN1 {
   display: flex;
-  align-items: start;
+  align-items: center;
   margin-inline: auto;
   max-width: 1160px;
   margin-top: 5rem;
@@ -922,7 +699,7 @@ body {
 }
 
 .SN3 {
-  width: 740px;
+  width: 715px;
 }
 
 .SN3primeiro {
@@ -934,120 +711,12 @@ body {
 .SN3primeiro p {
   font-family: var(--font-source-sans);
   font-size: 18px;
+  text-align: justify;
 }
 
 .SN3 .Botao {
   align-self: end;
   width: 8rem;
-}
-
-.SNemail {
-  justify-self: end;
-  display: flex;
-  flex-direction: column;
-  gap: 1.4rem;
-  margin-top: 5.4rem;
-}
-
-.SNemail input {
-  width: 430px;
-  outline: none;
-  border-bottom: 2px solid var(--color-preto);
-  color: var(--color-cinzaAzul);
-  font-size: 16px;
-  font-family: var(--font-source-sans);
-}
-
-.SNemail h4 {
-  max-width: 200px;
-  margin-inline: auto;
-  font-family: var(--font-share-tech);
-  color: var(--color-cinzaAzul);
-  font-size: 24px;
-}
-
-.SNemail input::placeholder {
-  color: var(--color-cinzaAzul);
-  font-size: 15px;
-  font-family: var(--font-share-tech);
-}
-
-/* ----------------------------------------------------------CADASTRO */
-
-.Cadastro {
-  margin-top: 7.47rem;
-  margin-inline: auto;
-  width: 590px;
-  padding-block: 2.5rem;
-  padding-bottom: 4rem;
-  border: 2px solid var(--color-branco);
-  background: var(--color-linearLuz);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 70px;
-}
-
-.Cadastro h1 {
-  font-size: 35px;
-  font-family: var(--font-share-tech);
-  margin-bottom: 4.5rem;
-}
-
-.CadDiv {
-  display: flex;
-  flex-direction: column;
-  gap: 1.15rem;
-}
-
-/* ----------------------------------------------------------LOGIN */
-
-.Login {
-  margin-top: 7.47rem;
-  margin-inline: auto;
-  width: 590px;
-  padding-block: 2.5rem;
-  padding-bottom: 4rem;
-  border: 2px solid var(--color-branco);
-  background: var(--color-linearLuz);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 70px;
-}
-
-.Login h1 {
-  font-size: 35px;
-  font-family: var(--font-share-tech);
-  margin-bottom: 4.5rem;
-}
-
-.Login .logDiv {
-  display: flex;
-  flex-direction: column;
-  gap: 1.15rem;
-}
-
-.perguntaLogCad {
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 16px;
-  font-family: var(--font-source-sans);
-  margin-inline: auto;
-}
-
-.perguntaLogCad button {
-  transition: 0.2s;
-}
-
-.perguntaLogCad button:hover {
-  cursor: pointer;
-  transform: scale(1.085);
-  transition: transform 0.1s ease-in-out;
 }
 
 body.dark h1 {

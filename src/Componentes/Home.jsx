@@ -16,9 +16,9 @@ export function Home() {
 
   return (
     <>
-        <section className="divHomeIntro">
+        <section className="divHomeIntro" data-aos="fade-up">
               <div>
-                <h1>E se fosse possível se <span className="span">comunicar</span> em um piscar de olhos?</h1>
+                <h1 data-aos="flip-left">E se fosse possível se <span className="span">comunicar</span> em um piscar de olhos?</h1>
         
                 <p>Inspirado no software ACAT — utilizado pelo físico teórico e cosmólogo britânico Stephen Hawking — o SH Communicator é uma solução inovadora desenvolvida para devolver a autonomia da comunicação a pessoas com ELA.</p>
         
@@ -32,12 +32,12 @@ export function Home() {
               <img src={HomeIntroFoto} alt="Sthephen Hawking foto" />
         </section>
 
-        <section className="divHomeDiferencial">
-              <h1>O <span className="span">SH Communicator</span> é a referência em comunicação alternativa</h1>
+        <section className="divHomeDiferencial" data-aos="fade-up">
+              <h1 data-aos="flip-left">O <span className="span">SH Communicator</span> é a referência em comunicação alternativa</h1>
         
                 <p className="dhdP1 umDois">Com o SH Communicator, cada piscada se torna uma palavra. Uma tecnologia que rompe barreiras, abrindo novos caminhos para a verdadeira comunicação.</p>
         
-                <h1 className="dhdP2">Conheça o nosso <span className="span">diferencial</span></h1>
+                <h1 className="dhdP2" data-aos="flip-left">Conheça o nosso <span className="span">diferencial</span></h1>
         
                 <p className="dhdP2 umDois">Funcionalidades pensadas para garantir a melhor experiência para quem mais precisa. Conheça agora os diferenciais que tornam essa solução única:</p>
         
@@ -76,8 +76,8 @@ export function Home() {
                 </div>
         </section>
 
-        <section className="divHomeMissao">
-              <h1>Garantir a <span className="span">comunicação</span> é a nossa missão.</h1>
+        <section className="divHomeMissao" data-aos="fade-up">
+              <h1 data-aos="flip-left">Garantir a <span className="span">comunicação</span> é a nossa missão.</h1>
               <div className="divHM1">
                 <div className="divHM2">
                     <p>Nosso projeto, o SH Communicator, foi desenvolvido com o objetivo de facilitar a comunicação de pessoas que enfrentam dificuldades motoras e de fala, como os portadores de ELA. Mas ele vai além: nossa solução pode beneficiar também pessoas com outras condições neurológicas, como paralisia cerebral, AVC ou a síndrome do encarceramento.</p>
