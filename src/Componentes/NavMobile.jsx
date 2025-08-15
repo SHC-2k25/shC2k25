@@ -12,20 +12,41 @@ import { useNavigate } from 'react-router-dom';
 export function NavMobile({ dark, setDark }) {
     const navigate = useNavigate();
 
-    
-    return(
+
+    return (
         <div className="navMobile">
+
+            <nav className="navLinks">
+                <ul>
+                    <li>
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                        <Link to="/guia">Guia</Link>
+                    </li>
+                    <li>
+                        <Link to="/materiais">Materiais</Link>
+                    </li>
+                    <li>
+                        <Link to="/jogo">Jogo</Link>
+                    </li>
+                    <li>
+                        <Link to="/referencias">Referências</Link>
+                    </li>
+                </ul>
+            </nav>
+
             <img src={dark ? menuMobileLuz : menuMobileDark}
-             alt="icone menu hamburguer"
-             className="menuMobile" />
+                alt="icone menu hamburguer"
+                className="menuMobile" />
 
-            <img src={shclogo} alt="logo do site" className="logo"/>
+            <img src={shclogo} alt="logo do site" className="logo" />
 
-            <img 
-              src={dark ? temaDark : tema} 
-              alt="icone do tema" 
-              className="temaUsuario" 
-              onClick={() => setDark(!dark)}
+            <img
+                src={dark ? temaDark : tema}
+                alt="icone do tema"
+                className="temaUsuario"
+                onClick={() => setDark(!dark)}
             />
         </div>
     )

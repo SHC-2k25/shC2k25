@@ -783,6 +783,14 @@ body.dark .nav ul {
     margin-inline: auto;
   }
 
+  .navLinks {
+    background-color: var(--color-red-800);
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+  }
+
   .menuMobile {
     height: 54px;
     width: 54px;
