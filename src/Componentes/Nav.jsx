@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import shclogo from "/shlogos.png";
 import tema from "../assets/dia-e-noite.png";
 import temaDark from "../assets/dia-e-noite-dark.png";
-import { useNavigate } from 'react-router-dom';  // Adicione esta linha
+import { useNavigate } from 'react-router-dom';
 
 export function NavLuz({ dark, setDark }) {
   const navigate = useNavigate();

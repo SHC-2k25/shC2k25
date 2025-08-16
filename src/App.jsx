@@ -11,11 +11,11 @@ import { MateriaisPage } from "./pages/MateriaisPage.jsx";
 import { useState, useEffect } from "react";
 
 import aos from 'aos';
-import 'aos/dist/aos.css'; // CSS do AOS
+import 'aos/dist/aos.css';
 
 export function App() {
   useEffect(() => {
-    aos.init({ duration: 1100 }); // Configuração global
+    aos.init({ duration: 1100 });
   }, []);
 
   const [dark, setDark] = useState(false);

@@ -1,11 +1,14 @@
 import { Link } from 'react-router-dom';
 
-import usuarioDark from "../assets/usuario-de-perfil-dark.png";
 import shclogo from "/shlogos.png";
 import tema from "../assets/dia-e-noite.png";
 import temaDark from "../assets/dia-e-noite-dark.png";
 import menuMobileLuz from "../assets/menuMobileLuz.png"
 import menuMobileDark from "../assets/menuMobileDark.png"
+import xLuz from "../assets/xLuz.png"
+import xDark from "../assets/xDark.png"
+import designLuz from "../assets/designLuz.png"
+import designDark from "../assets/designDark.png"
 
 import { useNavigate } from 'react-router-dom';
 
@@ -14,10 +17,13 @@ export function NavMobile({ dark, setDark }) {
 
 
     return (
+        
         <div className="navMobile">
 
-            <nav className="navLinks">
+            <nav className="navLinks" data-aos="fade-right" data-aos-delay="0.1" data-aos-once="true">
                 <ul>
+                    <img src={dark ? xDark : xLuz} alt="fechar icon" className="nlFechar"/>
+
                     <li>
                         <Link to="/">Home</Link>
                     </li>
@@ -33,7 +39,11 @@ export function NavMobile({ dark, setDark }) {
                     <li>
                         <Link to="/referencias">Referências</Link>
                     </li>
+                    <li>
+                        <Link to="/sobre">Sobre nós</Link>
+                    </li>
                 </ul>
+                <img src={dark ? designDark : designLuz} alt="design nav-mobile" className="nlDesign" />
             </nav>
 
             <img src={dark ? menuMobileLuz : menuMobileDark}

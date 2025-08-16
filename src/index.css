@@ -10,6 +10,7 @@ body {
   --color-branco: #ffff;
   --color-brancoMedio: #f7f7f7;
   --color-cinzaClaro: #E1E1E1;
+  --color-cinzaEscuro: #D9D9D9;
   --color-cinzaAzul: #273142;
   --color-azul: #227298;
 
@@ -661,6 +662,10 @@ body {
   border-radius: 999px;
   height: 280px;
   width: 280px;
+  background-image: url('../src/assets/vencedores.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .SN2primeiro {
@@ -770,6 +775,14 @@ body.dark .nav ul {
   color: var(--color-branco);
 }
 
+body.dark .navLinks {
+  background-color: var(--color-preto);
+}
+
+body.dark .navLinks ul {
+  color: var(--color-branco);
+}
+
 @media (max-width: 375px) {
   .nav {
     display: none;
@@ -784,11 +797,42 @@ body.dark .nav ul {
   }
 
   .navLinks {
-    background-color: var(--color-red-800);
+    background-color: var(--color-cinzaEscuro);
     position: fixed;
     top: 0;
     left: 0;
-    
+    height: 100vh;
+    width: 250px;
+    font-family: var(--font-share-tech);
+    font-size: 20px;
+    z-index: 2;
+  }
+
+  .navLinks .nlFechar {
+    height: 2.6rem;
+    width: 2.6rem;
+    margin-bottom: 5rem;
+  }
+
+  .navLinks ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 1.5rem 0 0 1rem;
+  }
+
+  .navLinks .nav ul li {
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .navLinks ul li:hover {
+    transition: 0.25s;
+    color: var(--color-azul);
+  }
+
+  .navLinks .nlDesign {
+    position: fixed;
+    bottom: 0;
   }
 
   .menuMobile {
