@@ -11,18 +11,21 @@ import designLuz from "../assets/designLuz.png"
 import designDark from "../assets/designDark.png"
 
 import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
 
 export function NavMobile({ dark, setDark }) {
+
     const navigate = useNavigate();
 
+    const [open, setOpen] = useState(false);
 
     return (
         
         <div className="navMobile">
 
-            <nav className="navLinks" data-aos="fade-right" data-aos-delay="0.1" data-aos-once="true">
+            { open && ( <nav className="navLinks">
                 <ul>
-                    <img src={dark ? xDark : xLuz} alt="fechar icon" className="nlFechar"/>
+                    <img src={dark ? xDark : xLuz} alt="fechar icon" className="nlFechar" onClick={()=> setOpen(false) }/>
 
                     <li>
                         <Link to="/">Home</Link>
@@ -44,11 +47,11 @@ export function NavMobile({ dark, setDark }) {
                     </li>
                 </ul>
                 <img src={dark ? designDark : designLuz} alt="design nav-mobile" className="nlDesign" />
-            </nav>
+            </nav>) }
 
             <img src={dark ? menuMobileLuz : menuMobileDark}
                 alt="icone menu hamburguer"
-                className="menuMobile" />
+                className="menuMobile" onClick={()=> setOpen(true) } />
 
             <img src={shclogo} alt="logo do site" className="logo" />
 

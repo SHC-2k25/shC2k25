@@ -48,7 +48,7 @@ export function Materiais() {
             <img src={emg} className="Mfoto"></img>
             <div className="Mtt">
               <h6>Sensor de sinal EMG</h6>
-              <p>Detector de atividade elétrica dos músculos para medir contrações musculares.</p>
+              <p>Detector de atividade elétrica muscular para medir contrações.</p>
             </div>
           </div>
           <p className="Mpreco">R$21,64</p> 
@@ -70,7 +70,7 @@ export function Materiais() {
             <img src={interruptor} className="Mfoto"></img>
             <div className="Mtt">
               <h6>Interruptor</h6>
-              <p>Interruptor gangorra ON/OFF.</p>
+              <p>Chave gangorra dois terminais.</p>
             </div>
           </div>
           <p className="Mpreco">R$1,50</p> 
@@ -92,7 +92,7 @@ export function Materiais() {
             <img src={pilha} className="Mfoto"></img>
             <div className="Mtt">
               <h6>Pilhas</h6>
-              <p>Fonte portátil de energia.</p>
+              <p>Fonte de energia portátil usada<br/> em aparelhos eletrônicos.</p>
             </div>
           </div>
           <p className="Mpreco">R$13,50</p> 
@@ -103,10 +103,10 @@ export function Materiais() {
             <img src={filamento} className="Mfoto"></img>
             <div className="Mtt">
               <h6>Filamento</h6>
-              <p>Material usado para formar peças de impressão 3D.</p>
+              <p>Material usado para formar<br/> peças de impressão 3D.</p>
             </div>
           </div>
-          <p className="Mpreco">R$ZZZZ</p> 
+          <p className="Mpreco">R$AA,aa</p> 
         </div>
 
       </div>

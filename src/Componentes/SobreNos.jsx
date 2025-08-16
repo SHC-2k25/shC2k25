@@ -9,8 +9,7 @@ export function SobreNos() {
 
             <div className='SN1'>
                 <div className="SN2" data-aos="fade-up">
-                    <div className='SNdev'></div> 
-                    {/* foto dos vencedores, em nome de Jesus, e desenvolvedores do projeto */}
+                    <div className='SNdev'></div> {/* foto dos vencedores, em nome de Jesus, e desenvolvedores do projeto */}
 
                     <div className='SN2primeiro'>
                         <img src={unasp} alt="unasp logo" className="unasp" />

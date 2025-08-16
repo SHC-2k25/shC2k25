@@ -118,7 +118,6 @@ body {
   height: 120px;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .Mtt h6 {
@@ -126,15 +125,15 @@ body {
   font-size: 17px;
   color: var(--color-branco);
   margin-bottom: 1rem;
+  align-self: center;
 }
 
 .Mtt p {
   font-family: var(--font-source-sans);
   font-size: 14px;
   color: var(--color-branco);
-  width: 210px;
+  width: fit-content;
   font-weight: 400;
-  text-align: left;
 }
 
 .Mpreco {
@@ -635,7 +634,9 @@ body {
   font-family: var(--font-share-tech);
   color: var(--color-pretoMedio);
   font-size: 38px;
-  justify-self: center;
+  width: fit-content;
+  margin-inline: auto;
+  text-align: center;
 }
 
 .SobreNos {
@@ -784,6 +785,7 @@ body.dark .navLinks ul {
 }
 
 @media (max-width: 375px) {
+
   .nav {
     display: none;
   }
@@ -942,4 +944,107 @@ body.dark .navLinks ul {
     width: 456.4px;
     height: 332px;
   }
+
+  .GP h1 {
+    font-size: 35px;
+    max-width: 310px;
+    text-align: center;
+    justify-self: center;
+  }
+
+  .GP h2 {
+    margin-block: 2.2rem;
+    font-family: var(--font-share-tech);
+    color: var(--color-preto);
+    font-size: 30px;
+  }
+
+  .GP p {
+    font-size: 19px;
+    max-width: 326px;
+    text-align: justify;
+  }
+
+  .GP iframe {
+    width: 316px;
+    height: 210px;
+  }
+
+  .materiais {
+    margin-top: 5rem;
+  }
+
+  .materiais2 h1 {
+    gap: 1rem;
+  }
+
+  .materiais2 h1 {
+    font-size: 35px;
+    max-width: 310px;
+    text-align: center;
+    justify-self: center;
+  }
+
+  .materiais2 p {
+    font-size: 19px;
+    max-width: 326px;
+    text-align: justify;
+  }
+
+  .materiais3 {
+    gap: 1.8rem;
+  }
+
+  .material {
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    padding-block: 0.7rem;
+    align-items: center;
+  }
+  
+  .Minformacao {
+    align-items: center;
+  }
+  
+  .Mtt {
+    width: 190px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .SobreNos {
+    margin-top: 5rem;
+    overflow-x: hidden;
+  }
+
+  .SobreNos h1 {
+    font-size: 35px;
+    max-width: 375px;
+  }
+
+  .SNdev {
+    height: 270px;
+    width: 270px;
+  }
+
+  .SN1 {
+    flex-direction: column;
+  }
+
+  .SN3 {
+    margin-top: 6rem;
+  }
+
+  .SN3primeiro {
+    max-width: 310px;
+    justify-self: center;
+    font-size: 20px;
+  }
+
 }
