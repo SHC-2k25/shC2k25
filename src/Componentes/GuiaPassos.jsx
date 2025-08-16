@@ -6,7 +6,6 @@ export function GuiaPassos() {
         <h1 data-aos="flip-left"><span className="span">Guia</span> - Veja como é <span className="span">fácil</span> de usar</h1>
         <h2 data-aos="flip-left" data-aos-delay="300">Passo 1:</h2>
         <p className="GPa" data-aos="fade-up">Ligue o dispositivo e certifique-se de que ele está conectado via Bluetooth ao aplicativo do SH Communicator. Essa conexão garante o envio correto dos sinais de seleção.</p>
-        <Botao texto={"Baixe nosso App"}/>
         <h2 data-aos="flip-left" data-aos-delay="700">Passo 2:</h2>
         <p data-aos="fade-up">Antes de aplicar os eletrodos, limpe a região epicraniana com álcool 70% para melhor contato. Fixe os eletrodos firmemente na pele para garantir a captação adequada do sinal.</p>
         <h2 data-aos="flip-left" data-aos-delay="300">Passo 3:</h2>

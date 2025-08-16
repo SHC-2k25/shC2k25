@@ -327,6 +327,8 @@ body {
 .botoesHome {
   display: flex;
   gap: 3rem;
+  justify-content: start;
+  max-width: 420px;
 }
 
 .divHomeDiferencial {
@@ -479,10 +481,6 @@ body {
   max-width: 800px;
   margin-top: 1rem;
   font-size: 18px;
-}
-
-.GPa {
-  margin-bottom: 3rem;
 }
 
 .GP .GPb {
@@ -981,8 +979,6 @@ body.dark .navLinks ul {
   .materiais2 h1 {
     font-size: 35px;
     max-width: 310px;
-    text-align: center;
-    justify-self: center;
   }
 
   .materiais2 p {
@@ -1003,6 +999,11 @@ body.dark .navLinks ul {
     width: fit-content;
     padding-block: 0.7rem;
     align-items: center;
+  }
+
+  .Mfoto {
+    height: 98.5px;
+    width: 98.5px;
   }
   
   .Minformacao {
@@ -1045,6 +1046,67 @@ body.dark .navLinks ul {
     max-width: 310px;
     justify-self: center;
     font-size: 20px;
+  }
+
+  .jogo h1 {
+    margin-inline: auto;
+    margin-block: 5rem;
+    text-align: center;
+    font-size: 35px;
+    max-width: 310px;
+  }
+
+  .jogo2 {
+    flex-direction: column;
+    justify-content: center;
+    gap: 6rem;
+    height: 470px;
+    margin-block: 15rem;
+  }
+
+  .jogo2 iframe {
+    width: 316px;
+    height: 210px;
+    margin-inline: auto;
+    order: -1;
+  }
+
+  .jogo4 p {
+    text-align: center;
+    font-size: 19px;
+    max-width: 326px;
+    text-align: justify;
+  }
+
+  .Referencias {
+    margin-top: 5rem;
+    overflow-x: hidden;
+  }
+  
+  .Referencias h1 {
+    font-size: 27px;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .Referencias p {
+    max-width: 326px;
+    font-size: 19px;
+    text-align: justify;
+    margin-top: 1.5rem;
+  }
+
+  .R1 div {
+    flex-wrap: wrap;
+    width: 180px;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .R1 h4 {
+    font-size: 24px;
+    max-width: 300px;
+    text-align: center;
   }
 
 }

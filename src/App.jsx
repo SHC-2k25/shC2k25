@@ -15,7 +15,8 @@ import 'aos/dist/aos.css';
 
 export function App() {
   useEffect(() => {
-    aos.init({ duration: 1100 });
+    aos.init({ duration: 1100
+     });
   }, []);
 
   const [dark, setDark] = useState(false);

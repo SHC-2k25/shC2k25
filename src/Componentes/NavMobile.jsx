@@ -53,7 +53,9 @@ export function NavMobile({ dark, setDark }) {
                 alt="icone menu hamburguer"
                 className="menuMobile" onClick={()=> setOpen(true) } />
 
-            <img src={shclogo} alt="logo do site" className="logo" />
+            <Link to="/">
+                <img src={shclogo} alt="logo do site" className="logo"/>
+            </Link>
 
             <img
                 src={dark ? temaDark : tema}
