@@ -23,7 +23,7 @@ export function NavMobile({ dark, setDark }) {
         
         <div className="navMobile">
 
-            { open && ( <nav className="navLinks">
+            { open && ( <nav className="navLinks" data-aos="fade-right">
                 <ul>
                     <img src={dark ? xDark : xLuz} alt="fechar icon" className="nlFechar" onClick={()=> setOpen(false) }/>
 

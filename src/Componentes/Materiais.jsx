@@ -106,7 +106,7 @@ export function Materiais() {
               <p>Material usado para formar<br/> peças de impressão 3D.</p>
             </div>
           </div>
-          <p className="Mpreco">R$AA,aa</p> 
+          <p className="Mpreco">R$84,55</p> 
         </div>
 
       </div>

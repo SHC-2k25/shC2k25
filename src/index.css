@@ -806,6 +806,7 @@ body.dark .navLinks ul {
     font-family: var(--font-share-tech);
     font-size: 20px;
     z-index: 2;
+    transition: opacity 0.3s ease, transform 0.3s ease;
   }
 
   .navLinks .nlFechar {
@@ -832,7 +833,8 @@ body.dark .navLinks ul {
 
   .navLinks .nlDesign {
     position: fixed;
-    bottom: 0;
+    bottom: -1;
+    z-index: -1;
   }
 
   .menuMobile {
