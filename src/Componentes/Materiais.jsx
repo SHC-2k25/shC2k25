@@ -5,7 +5,7 @@ import proto from "../assets/imgProtoo.png"
 import esp from "../assets/imgEsp.jpg"
 import jumper from "../assets/imgJumperr.png"
 import interruptor from "../assets/imgInterruptor.png"
-import filamento from "../assets/imgFilamento.png"
+import filamento from "../assets/imgFIlamento.png"
 
 import { useNavigate } from 'react-router-dom';
 
