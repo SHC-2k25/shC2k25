@@ -782,7 +782,7 @@ body.dark .navLinks ul {
   color: var(--color-branco);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 360px) {
 
   .nav {
     display: none;
