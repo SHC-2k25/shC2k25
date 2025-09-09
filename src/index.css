@@ -566,7 +566,7 @@ body {
 
 .jogo4 p {
   font-family: var(--font-source-sans);
-  text-align: center;
+  text-align: justify;
   font-size: 18px;
 }
 
