@@ -20,7 +20,7 @@ export function Home() {
               <div>
                 <h1 data-aos="flip-left">E se fosse possível se <span className="span">comunicar</span> em um piscar de olhos?</h1>
         
-                <p>Inspirado no software ACAT — utilizado pelo físico teórico e cosmólogo britânico Stephen Hawking — o SH Communicator é uma solução inovadora desenvolvida para devolver a autonomia da comunicação a pessoas com ELA.</p>
+                <p>IZZZZZZZZZZZZZZZZZZnspirado no software ACAT — utilizado pelo físico teórico e cosmólogo britânico Stephen Hawking — o SH Communicator é uma solução inovadora desenvolvida para devolver a autonomia da comunicação a pessoas com ELA.</p>
         
                 <div className="botoesHome">
                     <Botao texto={"Sobre nós"} onClick={() => navigate('/sobre')}/>
