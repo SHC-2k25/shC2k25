@@ -13,16 +13,7 @@ export function Jogo() {
           <Botao texto={"Jogue agora"} />
         </div>
 
-        <iframe
-          width="560"
-          data-aos="fade-up"
-          height="315"
-          src="https://youtu.be/hTdoHkCxPNA?feature=shared"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen>
-        </iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/hTdoHkCxPNA" frameborder="0" allowfullscreen></iframe>
 
       </div>
     </section>

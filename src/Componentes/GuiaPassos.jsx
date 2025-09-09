@@ -15,16 +15,8 @@ export function GuiaPassos() {
 
       <p className="GPb" data-aos="fade-up">Caso reste alguma dúvida, <span className="span">assista ao nosso tutorial</span> completo no YouTube.</p>
 
-      <iframe
-        width="560"
-        height="315"
-        data-aos="fade-up"
-        src="https://youtu.be/UGjddoPfx8w?feature=shared"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-      </iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/UGjddoPfx8w" frameborder="0" allowfullscreen></iframe>
+      
     </section>
   )
 }
