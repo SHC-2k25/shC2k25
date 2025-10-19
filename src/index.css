@@ -478,7 +478,7 @@ body {
 .GP p {
   font-family: var(--font-source-sans);
   text-align: center;
-  max-width: 800px;
+  max-width: 670px;
   margin-top: 1rem;
   font-size: 18px;
 }

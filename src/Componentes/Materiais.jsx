@@ -6,6 +6,7 @@ import esp from "../assets/imgEsp.jpg"
 import jumper from "../assets/imgJumperr.png"
 import interruptor from "../assets/imgInterruptor.png"
 import filamento from "../assets/imgFIlamento.png"
+import infra from "../assets/infra.jpg"
 
 import { useNavigate } from 'react-router-dom';
 
@@ -31,27 +32,16 @@ export function Materiais() {
           </div>
           <p className="Mpreco">R$49,90</p> 
         </div>
-        
-        <div className="material">
-          <div className="Minformacao">
-            <img src={proto} className="Mfoto"></img>
-            <div className="Mtt">
-              <h6>Protoboard</h6>
-              <p>Placa usada para montar circuitos eletrônicos sem precisar soldar.</p>
-            </div>
-          </div>
-          <p className="Mpreco">R$10,90</p> 
-        </div>
 
         <div className="material">
           <div className="Minformacao">
-            <img src={emg} className="Mfoto"></img>
+            <img src={infra} className="Mfoto"></img>
             <div className="Mtt">
-              <h6>Sensor de sinal EMG</h6>
-              <p>Detector de atividade elétrica muscular para medir contrações.</p>
+              <h6>Sensor IR Lm393</h6>
+              <p>Sensor infravermelho detecta presença e movimento com precisão e eficiência.</p>
             </div>
           </div>
-          <p className="Mpreco">R$21,64</p> 
+          <p className="Mpreco">R$12,49</p> 
         </div>
 
         <div className="material">

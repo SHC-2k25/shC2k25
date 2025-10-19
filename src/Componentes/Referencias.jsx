@@ -6,7 +6,7 @@ export function Referencias() {
 
       <p data-aos="fade-up">A comunicação é um direito fundamental e uma das capacidades mais comprometidas em doenças como a <span className="span">Esclerose Lateral Amiotrófica (ELA)</span>. Estudos científicos apontam que a ELA afeta significativamente a <span className="span">independência funcional</span>, principalmente pela perda progressiva da fala e do controle motor.</p>
 
-      <p data-aos="fade-up">Com o avanço da <span className="span">Tecnologia Assistiva</span>, surgem alternativas para restaurar essa autonomia. Entre elas, destaca-se a eletromiografia de superfície (EMG), que capta contrações musculares sutis — como o piscar — e as traduz em comandos. Essa técnica tem demonstrado eficiência em sistemas de <span className="span">comunicação</span> alternativa, mesmo em casos de limitações motoras severas.</p>
+      <p data-aos="fade-up">Com o avanço da <span className="span">Tecnologia Assistiva</span>, surgem alternativas para restaurar a autonomia. Entre elas, destaca-se o uso de sensores infravermelhos (IR), que detectam movimentos sutis, como o piscar dos olhos, e os traduzem em comandos. Essa abordagem tem se mostrado eficaz em sistemas de <span className="span">comunicação</span> alternativa, inclusive em situações de limitações motoras severas.</p>
 
       <p data-aos="fade-up">O <span className="span">SH Communicator</span> nasce nesse contexto: como uma resposta prática, acessível e baseada em ciência, que devolve à pessoa o poder de se comunicar com <span className="span">autonomia</span>, <span className="span">agilidade</span> e <span className="span">eficiência</span>.</p>
       <div className="R1">
